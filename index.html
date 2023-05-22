@@ -1,0 +1,218 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+
+    <script src="change.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Site accessibilité</title>
+
+
+
+</head>
+
+<body id="haut">
+    <header>
+        <section>
+            <nav class="navbar">
+
+                <ul class="ul1">
+                    <li> <a target="_blank" title="le menu">Menu</a></li>
+                    <li>
+                        <a href="#appel" target="_blank" title="Appel">Appeler</a>
+                    </li>
+                    <li>
+                        <a href="#ecrire" target="_blank" title="contact">Ecrire</a>
+                    </li>
+                    <li>
+                        <a href="#formulaire" target="_blank" title="formulaire">Formulaire</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section>
+            <button id="btn" onclick="toggle()" class="btn" tabindex="-1" role="button"
+                aria-disabled="true">AAA</button>
+
+        </section>
+
+        <div>
+
+            <h1> PAGE DE RECLAMATION</h1>
+        </div>
+    </header>
+ 
+    <main class="haut">
+
+        <section class="sect">
+            <h2><a href="#" id="appel" name="appel">Nous appeler</a></h2>
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus egestas mauris, nec ornare sapien
+                sagittis id. Sed sem leo, luctus sit amet euismod at, hendrerit eget turpis. In hac habitasse platea
+                dictumst. Nulla varius ex vitae commodo pharetra.<br />
+                Aenean interdum justo sed ligula dictum convallis. Sed ac lectus tellus. Quisque vitae magna sed est
+                lobortis luctus vitae et nunc. Ut tristique ultrices ante et porta. Cras vitae efficitur mi, id
+                vestibulum
+                orci.</p>
+            </p>
+
+            <div>
+                Téléphoner au: <button class="btnTel"><a href="tel:0606060606" title="Appeler nous sur le 060606" id="appel"
+                        name="appel">0606060606</a></button>
+            </div>
+
+        </section>
+
+       
+ 
+        <section class="sect">
+            <h2><a href="#" id="ecrire" name="ecrire">Nous écrire</a></h2>
+            <p>Vous avez une réclamation ?<br>
+                <b> Vous pouvez utiliser notre FAQ, nous contacter par formulaire ou par courrier postal.</b>
+            </p>
+
+            <p>Morbi iaculis cursus tempus. Vestibulum malesuada eros vel cursus viverra. Sed lobortis dolor nec
+                bibendum
+                consequat. Nam suscipit egestas lacus, eu aliquam ligula vehicula et. Nullam vel interdum felis. Nam
+                luctus
+                pharetra neque. Nulla lobortis orci elit, eu hendrerit lacus aliquet vel. Quisque est lectus, dapibus et
+                finibus consequat, finibus a sapien. Duis mollis, neque a volutpat malesuada, magna quam porttitor
+                dolor, id
+                feugiat augue nunc ut tortor. Aliquam imperdiet finibus nunc id placerat. Praesent molestie, sem et
+                blandit
+                suscipit, tortor sapien pulvinar quam, non mollis leo ipsum sit amet diam. Nunc varius tortor libero,
+                non
+                bibendum quam congue vitae. Nunc dictum dui quis risus tempor rutrum. Fusce egestas aliquam elit non
+                rutrum.
+            </p>
+
+            <p>Cras mattis elit sit amet nulla porta dapibus. Duis vitae quam id arcu tempor cursus eget vel ante.
+                Curabitur
+                blandit mauris ut ante consequat pharetra. Aliquam condimentum ex id sem vulputate, ac lobortis lorem
+                luctus. Sed quis molestie sapien. Nam scelerisque efficitur ex eget ultricies. Maecenas volutpat
+                efficitur
+                lacus, et condimentum mauris elementum non. Morbi egestas sollicitudin sem sit amet rutrum. Morbi vel
+                condimentum ante.</p>
+            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas vestibulum nulla auctor, sodales
+                libero ut, laoreet ex. Curabitur eu ipsum vitae leo dignissim finibus vitae vel ante. Nullam eget elit
+                auctor urna luctus malesuada ut eu lectus. Nam lorem sapien, volutpat vel erat id, malesuada placerat
+                ipsum.
+                Quisque in nisi in orci finibus porttitor in vitae lectus. Nullam et erat elit. Suspendisse purus odio,
+                blandit ut velit vitae, feugiat sagittis metus. Ut nec lacus ligula.</p>
+            <div>
+
+                <p>Contacter nous au: <button class="btnEmail"><a href="mailto:aaaa@live.fr" title="envoi votre email" id="email"
+                        name="email">aaaa@live.fr</a></button></p>
+
+            </div>
+
+        </section>
+
+
+        <section class="sect">
+
+            <p>Choisir parmi :</p>
+
+            <ul>
+                <ol class="c">
+                    <li class="inner"> <a href="faq.html" target="_blank" title="click"> FAQ</a></li><br />
+                    <li class="inner"><a href="mail.html" target="_blank" title="click">MAIL</a></li><br />
+                    <li class="inner"> <a href="courrier.html" target="_blank" title="click"> Courrier</a></li>
+                </ol>
+            </ul>
+            <div><a href="http://klaksa.free.fr/web/fiches/DWWM-Fiches-Accessibilite.pdf" target="_blank"
+                    title="téléchargement" download="telechargement.pdf">
+                    <button> Télécharger</button>
+                </a></div>
+
+
+        </section>
+
+
+        <section class="formulaire">
+            <a href="#" id="formulaire" name="formulaire" target="_parent">
+                <h2>Formulaire</h2>
+
+            </a>
+            <form action="/ma-page-de-traitement" method="post">
+                <div>
+                    <label for="name" class="name">Nom :</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label for="mail" class="name">e-mail :</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+                <div>
+                    <label for="msg" class="name">Message :</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+                <div >
+                    <button class="buttonn" type="submit">Envoyer le message</button>
+                </div>
+
+            </form>
+        </section>
+
+        <section class="vid">
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wDblsFA1xVI?controls=0" title="vidéo"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>  
+                   
+                   </iframe>
+                
+                  
+                <details class="ret">
+                 <summary >Retranscription</summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dolore pariatur obcaecati,
+                    inventore nihil, ex explicabo sunt ducimus libero dolorem corrupti. Accusantium, ratione. Totam,
+                    aliquid delectus iusto facere error nisi.
+                </details>
+                
+                
+        </section>
+    </main>
+             <div class="partage">
+                <p>Partager la page !</p>
+            </div>
+    
+     <footer>
+        
+        <section class="cont">
+            <div class="mentions">Mentions légales</div>
+            <div class="contact">Contact</div>
+            <div class="accessibility">Accessibilité</div>
+        </section>
+        <section class="copyright">
+            <div> Copyright 2020</div>
+        </section>
+    <section class="tab">
+        <p><a href="#haut" tabindex="3">retour en haut de page</a></p>
+
+    </section>
+    </footer>
+
+    
+
+
+
+
+
+</body>
+
+</html>
